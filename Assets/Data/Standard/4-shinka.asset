@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 4-shinka
+  m_EditorClassIdentifier: 
+  card_name: "\u9032\u5316"
+  image: {fileID: 21300000, guid: 29128995e0bf64dc1bf6e8b781d87aa7, type: 3}
+  types:
+  - action
+  - reserve
+  description: "\u30A2\u30AF\u30B7\u30E7\u30F3+1\n-----\n\u30BF\u30FC\u30F3\u958B\u59CB\u6642\u3001\u624B\u672D\u306E\u30AB\u30FC\u30C9\u30921\u679A\u5EC3\u68C4\u3057\u3001(\u305D\u306E\u30AB\u30FC\u30C9\u306E\u30B3\u30B9\u30C8+1)\u4EE5\u4E0B\u306E\u30B3\u30B9\u30C8\u306E\u30AB\u30FC\u30C9\u30921\u679A\u624B\u672D\u306B\u52A0\u3048\u3089\u308C\u308B"
+  cost: 4
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 1
+        n1: 1
+        n2: 
+        s: 
+      - type: 10
+        n1: 
+        n2: 
+        s: 
+      - type: 34
+        n1: 
+        n2: 
+        s: 
+    - summary: "\u624B\u672D\u306E\u30AB\u30FC\u30C9\u30921\u679A\u5EC3\u68C4\u3057\u3001(\u305D\u306E\u30AB\u30FC\u30C9\u306E\u30B3\u30B9\u30C8+1)\u4EE5\u4E0B\u306E\u30B3\u30B9\u30C8\u306E\u30AB\u30FC\u30C9\u30921\u679A\u624B\u672D\u306B\u52A0\u3048\u308B"
+      trigger: 3
+      target: 0
+      cond: 0
+      force: 1
+      actionParts:
+      - type: 4
+        n1: 
+        n2: 
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 18
+        n1: 
+        n2: 
+        s: 
+      - type: 21
+        n1: 
+        n2: 
+        s: 
+      - type: 22
+        n1: a
+        n2: 1
+        s: 
+      - type: 9
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: a
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 14
+        n1: 
+        n2: 
+        s: 
+      - type: 10
+        n1: 
+        n2: 
+        s: 
+      - type: 16
+        n1: 
+        n2: 
+        s: 

@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 4-imohori
+  m_EditorClassIdentifier: 
+  card_name: "\u828B\u6398\u308A"
+  image: {fileID: 21300000, guid: c623fd59e0d5b4c6c8f9d48cf1f95ebd, type: 3}
+  types:
+  - action
+  description: "\u30AB\u30FC\u30C9\u8CFC\u5165+1\n\u30C7\u30C3\u30AD\u306E\u4E0A\u306E\u30AB\u30FC\u30C91\u679A\u3092\u6368\u3066\u308B\n\u305D\u306E\u30AB\u30FC\u30C9\u306E\u30B3\u30B9\u30C8\u304C4\u4EE5\u4E0A\u3067\u3042\u308B\u5834\u5408\u3001\u30B3\u30A4\u30F3+1\u3092\u5F97\u3066\u3001\u518D\u3073\u7E70\u308A\u8FD4\u3059"
+  cost: 4
+  action:
+    subaction:
+    - trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 2
+        n1: 1
+        n2: 
+        s: 
+    - trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 22
+        n1: 0
+        n2: 
+        s: 
+      - type: 30
+        n1: 
+        n2: 
+        s: 
+      - type: 37
+        n1: 
+        n2: 
+        s: 
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+    - trigger: 0
+      target: 0
+      cond: 1
+      force: 0
+      actionParts:
+      - type: 7
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: 3
+        s: 
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+    - trigger: 0
+      target: 0
+      cond: 1
+      force: 0
+      actionParts:
+      - type: 42
+        n1: 6
+        n2: 
+        s: 
+    - trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 5
+        n1: 1
+        n2: 
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 
+      - type: 21
+        n1: 
+        n2: 
+        s: 
+      - type: 30
+        n1: 
+        n2: 
+        s: 
+      - type: 22
+        n1: 4
+        n2: 
+        s: 
+    - trigger: 0
+      target: 0
+      cond: 3
+      force: 0
+      actionParts:
+      - type: 0
+        n1: 1
+        n2: 
+        s: 
+      - type: 42
+        n1: 1
+        n2: 
+        s: 
+    - trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts: []

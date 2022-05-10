@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 6-torokko
+  m_EditorClassIdentifier: 
+  card_name: "\u30C8\u30ED\u30C3\u30B3"
+  image: {fileID: 21300000, guid: d94087492399049a9b3ba0558ebf69bb, type: 3}
+  types:
+  - action
+  - reaction
+  description: "\u30C9\u30ED\u30FC+1\n\u30A2\u30AF\u30B7\u30E7\u30F3\uFF0B2\n-----\n\u3053\u306E\u30AB\u30FC\u30C9\u3092\u7372\u5F97\u3057\u305F\u6642\u3001\u30B3\u30B9\u30C85\u4EE5\u4E0B\u306E\u30AB\u30FC\u30C91\u679A\u3092\u30B5\u30D7\u30E9\u30A4\u304B\u3089\u7372\u5F97\u3059\u308B"
+  cost: 6
+  action:
+    subaction:
+    - trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 3
+        n1: 1
+        n2: 
+        s: 
+      - type: 1
+        n1: 2
+        n2: 
+        s: 
+    - trigger: 5
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 9
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: 5
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 

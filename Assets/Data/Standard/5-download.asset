@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 5-download
+  m_EditorClassIdentifier: 
+  card_name: "\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9"
+  image: {fileID: 21300000, guid: e64c99e2fc119414ea6127286a055237, type: 3}
+  types:
+  - action
+  - sustain
+  description: "\u30C9\u30ED\u30FC+3\n\u624B\u672D\u306B\u3042\u308B\u30A2\u30AF\u30B7\u30E7\u30F3\u30AB\u30FC\u30C9\u3092\u6700\u59273\u679A\u307E\u3067\u8107\u306B\u7F6E\u304F\n\u4EE5\u964D\u306E\u5404\u30BF\u30FC\u30F3\u958B\u59CB\u6642\u3001\u8107\u306B\u6B8B\u3063\u3066\u3044\u308B\u30AB\u30FC\u30C9\u30921\u679A\u5834\u306B\u7F6E\u304D\u3001\u305D\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u3092\u5B9F\u884C\u3059\u308B"
+  cost: 5
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 10
+        n1: 
+        n2: 
+        s: 
+      - type: 34
+        n1: 
+        n2: 
+        s: 
+      - type: 3
+        n1: 3
+        n2: 
+        s: 
+      - type: 4
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: inf
+        s: action
+      - type: 13
+        n1: 0
+        n2: inf
+        s: 
+      - type: 48
+        n1: 
+        n2: 
+        s: 
+    - summary: 
+      trigger: 3
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 47
+        n1: 
+        n2: 
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 16
+        n1: 
+        n2: 
+        s: 
+      - type: 29
+        n1: 1
+        n2: 
+        s: 
+      - type: 27
+        n1: 
+        n2: 
+        s: 
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+    - summary: 
+      trigger: 3
+      target: 0
+      cond: 1
+      force: 0
+      actionParts:
+      - type: 10
+        n1: 
+        n2: 
+        s: 
+      - type: 16
+        n1: 
+        n2: 
+        s: 

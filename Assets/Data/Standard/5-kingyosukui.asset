@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 5-kingyosukui
+  m_EditorClassIdentifier: 
+  card_name: "\u91D1\u9B5A\u3059\u304F\u3044"
+  image: {fileID: 21300000, guid: 88dcf5825f36c41c9aed58eae7cdcc80, type: 3}
+  types:
+  - action
+  description: "\u91D1\u9B5A\u3092\u30E9\u30F3\u30C0\u30E0\u306B2\u679A\u7372\u5F97\u3059\u308B"
+  cost: 5
+  subCards:
+  - {fileID: 11400000, guid: c56c93961984644219d1ac539fee8f7e, type: 2}
+  - {fileID: 11400000, guid: 5dc80ecdc20e24c6fa48c20a83474a26, type: 2}
+  - {fileID: 11400000, guid: 7736b46c83ecf44beba07ee8c3a91810, type: 2}
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 52
+        n1: 
+        n2: 
+        s: "#\u91D1\u9B5A"
+      - type: 53
+        n1: 2
+        n2: 
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 

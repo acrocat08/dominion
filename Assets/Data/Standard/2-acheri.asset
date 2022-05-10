@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 2-acheri
+  m_EditorClassIdentifier: 
+  card_name: "\u30A2\u30FC\u30C1\u30A7\u30EA\u30FC"
+  image: {fileID: 21300000, guid: 653f32a021e554de196cc454235fe42c, type: 3}
+  types:
+  - action
+  description: "\u5834\u306B\u30A2\u30FC\u30C1\u30A7\u30EA\u30FC\u304C1\u679A\u3042\u308B\u5834\u5408\u3001\u30A2\u30AF\u30B7\u30E7\u30F3+3\u3092\u5F97\u308B\n\u305D\u3046\u3067\u306A\u3044\u5834\u5408\u3001\u624B\u672D\u306B\u3042\u308B\u5F97\u70B9\u30AB\u30FC\u30C9\u306E\u679A\u6570\u5206\u30C9\u30ED\u30FC\u3092\u5F97\u308B"
+  cost: 2
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 10
+        n1: 
+        n2: 
+        s: 
+      - type: 27
+        n1: 
+        n2: 
+        s: 
+      - type: 28
+        n1: 
+        n2: 
+        s: 
+      - type: 6
+        n1: 
+        n2: 
+        s: 
+      - type: 35
+        n1: 
+        n2: 
+        s: 
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+      - type: 30
+        n1: 
+        n2: 
+        s: 
+      - type: 22
+        n1: 1
+        n2: 
+        s: 
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 1
+      force: 0
+      actionParts:
+      - type: 1
+        n1: 3
+        n2: 
+        s: 
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 4
+      force: 0
+      actionParts:
+      - type: 4
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: inf
+        s: score
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+      - type: 3
+        n1: a
+        n2: 
+        s: 

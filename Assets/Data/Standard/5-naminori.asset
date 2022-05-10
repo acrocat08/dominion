@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 5-naminori
+  m_EditorClassIdentifier: 
+  card_name: "\u6CE2\u4E57\u308A"
+  image: {fileID: 21300000, guid: 54fa43cb27af8445d845cfde03573118, type: 3}
+  types:
+  - action
+  description: "\u30C7\u30C3\u30AD\u306E\u4E0A4\u679A\u3092\u516C\u958B\u3059\u308B\n\u305D\u308C\u3089\u306E\u30AB\u30FC\u30C9\u306E\u7A2E\u985E\u6570\u306B\u7B49\u3057\u3044\u30B3\u30A4\u30F3\u3092\u5F97\u308B"
+  cost: 5
+  action:
+    subaction:
+    - trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 5
+        n1: 4
+        n2: 
+        s: 
+      - type: 16
+        n1: 
+        n2: 
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 
+      - type: 27
+        n1: 
+        n2: 
+        s: 
+      - type: 46
+        n1: 
+        n2: 
+        s: 
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+      - type: 0
+        n1: a
+        n2: 
+        s: 

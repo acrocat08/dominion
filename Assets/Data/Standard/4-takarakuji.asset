@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 4-takarakuji
+  m_EditorClassIdentifier: 
+  card_name: "\u5B9D\u304F\u3058"
+  image: {fileID: 21300000, guid: a044998efa7e641eeaa03e970e415852, type: 3}
+  types:
+  - coin
+  description: "\u30B3\u30A4\u30F3+0\n\u30C7\u30C3\u30AD\u306E\u4E0A1\u679A\u3092\u6368\u3066\u308B\n\u305D\u306E\u30AB\u30FC\u30C9\u304C\u5F97\u70B9\u30AB\u30FC\u30C9\u3067\u3042\u308B\u5834\u5408\u3001\u30B3\u30A4\u30F3+4\u3092\u5F97\u3066\u3001\u91D1\u8CA81\u679A\u3092\u30B5\u30D7\u30E9\u30A4\u304B\u3089\u7372\u5F97\u3059\u308B"
+  cost: 4
+  action:
+    subaction:
+    - summary: 
+      trigger: 19
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 0
+        n1: 0
+        n2: 
+        s: 
+      - type: 5
+        n1: 1
+        n2: 
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: inf
+        s: score
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+      - type: 30
+        n1: 
+        n2: 
+        s: 
+      - type: 22
+        n1: 1
+        n2: 0
+        s: 
+    - summary: 
+      trigger: 1
+      target: 0
+      cond: 1
+      force: 0
+      actionParts:
+      - type: 0
+        n1: 4
+        n2: 
+        s: 
+      - type: 9
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: inf
+        s: $kinka
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 

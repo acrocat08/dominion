@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 2-bikkuribako
+  m_EditorClassIdentifier: 
+  card_name: "\u3073\u3063\u304F\u308A\u7BB1"
+  image: {fileID: 21300000, guid: c2cc7698a74924a00a6d4e935b513b3d, type: 3}
+  types:
+  - reaction
+  - attack
+  description: "\u3053\u306E\u30AB\u30FC\u30C9\u3092\u7372\u5F97\u3057\u305F\u6642\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u76F8\u624B\u306E\u6368\u3066\u672D\u306B\u7F6E\u304F\n-----\n\u3053\u306E\u30AB\u30FC\u30C9\u3092\u30C7\u30C3\u30AD\u304B\u3089\u5F15\u3044\u305F\u6642\u3001\u624B\u672D\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u30AB\u30FC\u30C91\u679A\u3092\u30C7\u30C3\u30AD\u306E\u4E0A\u306B\u7F6E\u304F"
+  cost: 2
+  action:
+    subaction:
+    - trigger: 5
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 10
+        n1: 
+        n2: 
+        s: 
+      - type: 40
+        n1: 
+        n2: 
+        s: 
+    - trigger: 5
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 15
+        n1: 
+        n2: 
+        s: 
+    - trigger: 8
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 4
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: inf
+        s: action
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 15
+        n1: 
+        n2: 
+        s: 

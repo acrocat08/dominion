@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 5-niwashi
+  m_EditorClassIdentifier: 
+  card_name: "\u5EAD\u5E2B"
+  image: {fileID: 21300000, guid: 0919768f128f14438ade5950eaeb9369, type: 3}
+  types:
+  - action
+  description: "\u30C9\u30ED\u30FC+1\n\u30A2\u30AF\u30B7\u30E7\u30F3+1\n\u3053\u306E\u30BF\u30FC\u30F3\u306E\u9593\u3001\u5F97\u70B9\u30AB\u30FC\u30C9\u30921\u679A\u7372\u5F97\u3059\u308B\u5EA6\u3001\u5F97\u70B9\u30C8\u30FC\u30AF\u30F3+1\u3092\u5F97\u308B"
+  cost: 5
+  subCards: []
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 3
+        n1: 1
+        n2: 
+        s: 
+      - type: 1
+        n1: 1
+        n2: 
+        s: 
+    - summary: 
+      trigger: 12
+      target: 1
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 11
+        n1: 0
+        n2: inf
+        s: score
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+    - summary: 
+      trigger: 12
+      target: 1
+      cond: 4
+      force: 0
+      actionParts:
+      - type: 36
+        n1: 1
+        n2: 
+        s: 

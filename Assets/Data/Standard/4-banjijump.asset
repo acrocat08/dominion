@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 4-banjijump
+  m_EditorClassIdentifier: 
+  card_name: "\u30D0\u30F3\u30B8\u30FC\u30B8\u30E3\u30F3\u30D7"
+  image: {fileID: 21300000, guid: 6c7e420282a9544658ae6aa3b623fcad, type: 3}
+  types:
+  - action
+  - reaction
+  description: "\u30C9\u30ED\u30FC+1\n\u30A2\u30AF\u30B7\u30E7\u30F3+2\n-----\n\u3053\u306E\u30AB\u30FC\u30C9\u3092\u5EC3\u68C4\u3057\u305F\u6642\u3001\u624B\u672D\u306B\u52A0\u3048\u308B"
+  cost: 4
+  subCards: []
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 3
+        n1: 1
+        n2: 
+        s: 
+      - type: 1
+        n1: 2
+        n2: 
+        s: 
+    - summary: 
+      trigger: 7
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 10
+        n1: 
+        n2: 
+        s: 
+      - type: 14
+        n1: 
+        n2: 
+        s: 

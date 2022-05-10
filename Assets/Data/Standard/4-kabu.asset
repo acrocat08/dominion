@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 4-kabu
+  m_EditorClassIdentifier: 
+  card_name: "\u30AB\u30D6"
+  image: {fileID: 21300000, guid: cca4558abad7b4e429c440472cd780d0, type: 3}
+  types:
+  - action
+  - reaction
+  description: "\u30A2\u30AF\u30B7\u30E7\u30F3+1\n\u624B\u672D\u306E\u30AB\u30FC\u30C9\u30921\u679A\u5EC3\u68C4\u3059\u308B\n-----\n\u3053\u306E\u30AB\u30FC\u30C9\u3092\u5EC3\u68C4\u3057\u305F\u6642\u3001\u30B3\u30A4\u30F3+4\u3001\u30AB\u30FC\u30C9\u8CFC\u5165+1\u3092\u5F97\u308B"
+  cost: 4
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 1
+        n1: 1
+        n2: 
+        s: 
+      - type: 4
+        n1: 
+        n2: 
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 18
+        n1: 
+        n2: 
+        s: 
+    - summary: 
+      trigger: 7
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 0
+        n1: 4
+        n2: 
+        s: 
+      - type: 2
+        n1: 1
+        n2: 
+        s: 

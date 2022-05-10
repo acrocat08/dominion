@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: $3-sirokingyo
+  m_EditorClassIdentifier: 
+  card_name: "\u767D\u91D1\u9B5A"
+  image: {fileID: 21300000, guid: 6c8d2881a1a6843eb86f964e4dd75be2, type: 3}
+  types:
+  - action
+  - "#\u91D1\u9B5A"
+  description: "\u30A2\u30AF\u30B7\u30E7\u30F3+2\n\u30AB\u30FC\u30C9\u8CFC\u5165+1\n\u624B\u672D\u306B\u91D1\u9B5A\u304C\u3042\u308B\u5834\u5408\u3001\u30C9\u30ED\u30FC+1\u3092\u5F97\u308B"
+  cost: 3
+  subCards: []
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 1
+        n1: 2
+        n2: 
+        s: 
+      - type: 2
+        n1: 1
+        n2: 
+        s: 
+      - type: 4
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: inf
+        s: "#\u91D1\u9B5A"
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 4
+      force: 0
+      actionParts:
+      - type: 3
+        n1: 1
+        n2: 
+        s: 

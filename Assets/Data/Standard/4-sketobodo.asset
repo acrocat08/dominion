@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 4-sketobodo
+  m_EditorClassIdentifier: 
+  card_name: "\u30B9\u30B1\u30FC\u30C8\u30DC\u30FC\u30C9"
+  image: {fileID: 21300000, guid: 18aec7d16010b45909f4642d6f688d4a, type: 3}
+  types:
+  - action
+  description: "\u30B3\u30A4\u30F3+2\n\u30A2\u30AF\u30B7\u30E7\u30F3\u30923\u56DE\u4EE5\u4E0A\u5B9F\u884C\u3057\u3066\u3044\u308B\u5834\u5408\u3001\u30C9\u30ED\u30FC+1\u3001\u30A2\u30AF\u30B7\u30E7\u30F3+1\u3092\u5F97\u308B"
+  cost: 4
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 0
+        n1: 2
+        n2: 
+        s: 
+      - type: 32
+        n1: 
+        n2: 
+        s: 
+      - type: 30
+        n1: 
+        n2: 
+        s: 
+      - type: 22
+        n1: 3
+        n2: 
+        s: 
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 3
+      force: 0
+      actionParts:
+      - type: 3
+        n1: 1
+        n2: 
+        s: 
+      - type: 1
+        n1: 1
+        n2: 
+        s: 

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 3-ninja
+  m_EditorClassIdentifier: 
+  card_name: "\u5FCD\u8005"
+  image: {fileID: 21300000, guid: 0fa9c4f15d5ac4906ad5f4aa193cc0ce, type: 3}
+  types:
+  - action
+  description: "\u30C9\u30ED\u30FC+1\n\u30A2\u30AF\u30B7\u30E7\u30F3+1\n\u624B\u88CF\u5263\u30921\u679A\u7372\u5F97\u3059\u308B"
+  cost: 3
+  subCards:
+  - {fileID: 11400000, guid: 41bf0b5feb18545b9a13574ac447c403, type: 2}
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 3
+        n1: 1
+        n2: 
+        s: 
+      - type: 1
+        n1: 1
+        n2: 
+        s: 
+      - type: 52
+        n1: 
+        n2: 
+        s: $syuriken
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 

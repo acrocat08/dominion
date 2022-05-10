@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 5-tunobue
+  m_EditorClassIdentifier: 
+  card_name: "\u89D2\u7B1B"
+  image: {fileID: 21300000, guid: 1fc3757ec4e4540c7829e8cf904dcaa4, type: 3}
+  types:
+  - coin
+  description: "\u30B3\u30A4\u30F3+0\n\u30BF\u30FC\u30F3\u7D42\u4E86\u6642\u3001(\u5834\u306B\u51FA\u3066\u3044\u308B\u30AB\u30FC\u30C9\u306E\u7A2E\u985E\u6570)\u4EE5\u4E0B\u306E\u30B3\u30B9\u30C8\u306E\u30AB\u30FC\u30C9\u3092\u30B5\u30D7\u30E9\u30A4\u304B\u30891\u679A\u7372\u5F97\u3059\u308B\n\u305D\u306E\u30AB\u30FC\u30C9\u304C\u5F97\u70B9\u30AB\u30FC\u30C9\u3067\u3042\u308B\u5834\u5408\u3001\u3053\u306E\u30AB\u30FC\u30C9\u3092\u5EC3\u68C4\u3059\u308B"
+  cost: 5
+  action:
+    subaction:
+    - summary: 
+      trigger: 19
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 0
+        n1: 0
+        n2: 
+        s: 
+    - summary: 
+      trigger: 10
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 6
+        n1: 
+        n2: 
+        s: 
+      - type: 27
+        n1: 
+        n2: 
+        s: 
+      - type: 46
+        n1: 
+        n2: 
+        s: 
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+      - type: 9
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: a
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: inf
+        s: score
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+    - summary: 
+      trigger: 10
+      target: 0
+      cond: 4
+      force: 0
+      actionParts:
+      - type: 10
+        n1: 
+        n2: 
+        s: 
+      - type: 18
+        n1: 
+        n2: 
+        s: 

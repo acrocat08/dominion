@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 6-husya
+  m_EditorClassIdentifier: 
+  card_name: "\u98A8\u8ECA"
+  image: {fileID: 21300000, guid: ee86dce64d3a249c3b14c160f0a47730, type: 3}
+  types:
+  - score
+  - action
+  description: "\u5F97\u70B9+2\n-----\n\u6B21\u304B\u30891\u3064\u9078\u3076\n\u300C\u30C9\u30ED\u30FC+3\u300D\u300C\u30A2\u30AF\u30B7\u30E7\u30F3+2\u300D"
+  cost: 6
+  action:
+    subaction:
+    - summary: 
+      trigger: 9
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 36
+        n1: 2
+        n2: 
+        s: 
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 22
+        n1: 1
+        n2: 
+        s: 
+    - summary: "\u30C9\u30ED\u30FC+3"
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 3
+      actionParts:
+      - type: 3
+        n1: 3
+        n2: 
+        s: 
+    - summary: "\u30A2\u30AF\u30B7\u30E7\u30F3+2"
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 3
+      actionParts:
+      - type: 1
+        n1: 2
+        n2: 
+        s: 

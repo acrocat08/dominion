@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 5-tuppari
+  m_EditorClassIdentifier: 
+  card_name: "\u3064\u3063\u3071\u308A"
+  image: {fileID: 21300000, guid: 24773a83288ce4371aee8441cfcb8d07, type: 3}
+  types:
+  - action
+  - attack
+  description: "\u30C9\u30ED\u30FC+2\n\u76F8\u624B\u306F\u624B\u672D\u304C3\u679A\u306B\u306A\u308B\u307E\u3067\u30AB\u30FC\u30C9\u3092\u30C7\u30C3\u30AD\u306E\u4E0A\u306B\u7F6E\u304F"
+  cost: 5
+  subCards: []
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 3
+        n1: 2
+        n2: 
+        s: 
+      - type: 40
+        n1: 
+        n2: 
+        s: 
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 4
+        n1: 
+        n2: 
+        s: 
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+      - type: 23
+        n1: a
+        n2: 3
+        s: 
+      - type: 13
+        n1: a
+        n2: a
+        s: 
+      - type: 15
+        n1: 
+        n2: 
+        s: 

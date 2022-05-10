@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 3-fishing
+  m_EditorClassIdentifier: 
+  card_name: "\u30D5\u30A3\u30C3\u30B7\u30F3\u30B0"
+  image: {fileID: 21300000, guid: a9b12609e2e544c5e90dafc45214e639, type: 3}
+  types:
+  - action
+  description: "\u30C9\u30ED\u30FC+1\n\u30A2\u30AF\u30B7\u30E7\u30F3+1\n\u30C7\u30C3\u30AD\u306E\u4E0A\u306E\u30AB\u30FC\u30C91\u679A\u3092\u898B\u3066\u3001\u305D\u306E\u30AB\u30FC\u30C9\u306E\u30B3\u30B9\u30C8\u304C\u5947\u6570\u3067\u3042\u308B\u5834\u5408\u3001\u305D\u306E\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B"
+  cost: 3
+  action:
+    subaction:
+    - trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 3
+        n1: 1
+        n2: 
+        s: 
+      - type: 1
+        n1: 1
+        n2: 
+        s: 
+      - type: 5
+        n1: 1
+        n2: 
+        s: 
+      - type: 16
+        n1: 
+        n2: 
+        s: 
+      - type: 21
+        n1: 
+        n2: 
+        s: 
+      - type: 26
+        n1: a
+        n2: 2
+        s: 
+      - type: 30
+        n1: 
+        n2: 
+        s: 
+      - type: 22
+        n1: 1
+        n2: 0
+        s: 
+    - trigger: 0
+      target: 0
+      cond: 1
+      force: 0
+      actionParts:
+      - type: 14
+        n1: 
+        n2: 
+        s: 
+    - trigger: 0
+      target: 0
+      cond: 4
+      force: 0
+      actionParts:
+      - type: 15
+        n1: 
+        n2: 
+        s: 

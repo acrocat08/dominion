@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 7-touryou
+  m_EditorClassIdentifier: 
+  card_name: "\u68DF\u6881"
+  image: {fileID: 21300000, guid: 24d6a6d43714443f6b442e25976e60d7, type: 3}
+  types:
+  - action
+  description: "\u624B\u672D\u306E\u30AB\u30FC\u30C9\u30921\u679A\u5EC3\u68C4\u3057\u3001(\u305D\u306E\u30AB\u30FC\u30C9\u306E\u30B3\u30B9\u30C8+3)\u4EE5\u4E0B\u306E\u30B3\u30B9\u30C8\u306E\u30AB\u30FC\u30C9\u30921\u679A\u7372\u5F97\u3059\u308B"
+  cost: 7
+  action:
+    subaction:
+    - summary: 
+      trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 4
+        n1: 
+        n2: 
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 18
+        n1: 
+        n2: 
+        s: 
+      - type: 21
+        n1: 
+        n2: 
+        s: 
+      - type: 22
+        n1: a
+        n2: 3
+        s: 
+      - type: 9
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: a
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 

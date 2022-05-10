@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 4-adbaloon
+  m_EditorClassIdentifier: 
+  card_name: "\u30A2\u30C9\u30D0\u30EB\u30FC\u30F3"
+  image: {fileID: 21300000, guid: 3b72e036dea3b494bbeec9a6d795320c, type: 3}
+  types:
+  - action
+  description: "\u624B\u672D\u306B\u3042\u308B1\u756A\u30B3\u30B9\u30C8\u304C\u4F4E\u3044\u30AB\u30FC\u30C9\u30921\u679A\u6368\u3066\u3066\u3001\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u5F15\u304F\n\u3053\u308C\u30922\u56DE\u7E70\u308A\u8FD4\u3059"
+  cost: 4
+  action:
+    subaction:
+    - trigger: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 4
+        n1: 
+        n2: 
+        s: 
+      - type: 39
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: a
+        n2: a
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 
+      - type: 3
+        n1: 2
+        n2: 
+        s: 
+      - type: 22
+        n1: 1
+        n2: 
+        s: 
+      - type: 30
+        n1: 
+        n2: 
+        s: 
+      - type: 22
+        n1: a
+        n2: 1
+        s: 
+      - type: 30
+        n1: 
+        n2: 
+        s: 
+    - trigger: 0
+      cond: 2
+      force: 0
+      actionParts:
+      - type: 42
+        n1: 0
+        n2: 
+        s: 

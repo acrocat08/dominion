@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 2-syatihoko
+  m_EditorClassIdentifier: 
+  card_name: "\u30B7\u30E3\u30C1\u30DB\u30B3"
+  image: {fileID: 21300000, guid: 7d867e0b3c39048279725942e90c99d8, type: 3}
+  types:
+  - coin
+  description: "\u30B3\u30A4\u30F3+1\n\u5834\u306B\u30B7\u30E3\u30C1\u30DB\u30B3\u304C2\u679A\u4EE5\u4E0A\u3042\u308B\u5834\u5408\u3001\u3055\u3089\u306B\u30B3\u30A4\u30F3+3\u3092\u5F97\u308B"
+  cost: 2
+  action:
+    subaction:
+    - summary: 
+      trigger: 19
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 0
+        n1: 1
+        n2: 
+        s: 
+      - type: 10
+        n1: 
+        n2: 
+        s: 
+      - type: 27
+        n1: 
+        n2: 
+        s: 
+      - type: 28
+        n1: 
+        n2: 
+        s: 
+      - type: 6
+        n1: 
+        n2: 
+        s: 
+      - type: 35
+        n1: 
+        n2: 
+        s: 
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+      - type: 30
+        n1: 
+        n2: 
+        s: 
+      - type: 22
+        n1: 2
+        n2: 
+        s: 
+    - summary: 
+      trigger: 1
+      target: 0
+      cond: 3
+      force: 0
+      actionParts:
+      - type: 0
+        n1: 3
+        n2: 
+        s: 

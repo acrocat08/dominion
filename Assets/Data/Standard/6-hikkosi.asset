@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 6-hikkosi
+  m_EditorClassIdentifier: 
+  card_name: "\u5F15\u3063\u8D8A\u3057"
+  image: {fileID: 21300000, guid: b438b871f6982461d8a5080a09b6d093, type: 3}
+  types:
+  - action
+  - reaction
+  description: "\u30C9\u30ED\u30FC+4\n-----\n\u3053\u306E\u30AB\u30FC\u30C9\u3092\u5EC3\u68C4\u3057\u305F\u6642\u3001\u4F4F\u5B851\u679A\u3092\u7372\u5F97\u3059\u308B"
+  cost: 6
+  action:
+    subaction:
+    - trigger: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 3
+        n1: 4
+        n2: 
+        s: 
+    - trigger: 7
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 9
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: inf
+        s: $jutaku
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 

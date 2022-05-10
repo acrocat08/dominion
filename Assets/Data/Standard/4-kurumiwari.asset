@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 4-kurumiwari
+  m_EditorClassIdentifier: 
+  card_name: "\u304F\u308B\u307F\u5272\u308A\u4EBA\u5F62"
+  image: {fileID: 21300000, guid: a1d5fab8aec574020b8f1225ee976bb8, type: 3}
+  types:
+  - action
+  description: "\u624B\u672D\u306E\u30AB\u30FC\u30C91\u679A\u3092\u5EC3\u68C4\u3059\u308B\n\u305D\u306E\u30AB\u30FC\u30C9\u306E\u30B3\u30B9\u30C8\u304C1\u4EE5\u4E0A\u3067\u3042\u308B\u5834\u5408\u3001\u305D\u306E\u30AB\u30FC\u30C9\u3088\u308A\u30B3\u30B9\u30C8\u304C\u4F4E\u3044\u30AB\u30FC\u30C91\u679A\u3068\u91D1\u8CA81\u679A\u3092\u7372\u5F97\u3059\u308B"
+  cost: 4
+  action:
+    subaction:
+    - trigger: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 4
+        n1: 
+        n2: 
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 18
+        n1: 
+        n2: 
+        s: 
+      - type: 21
+        n1: 
+        n2: 
+        s: 
+    - trigger: 0
+      cond: 4
+      force: 0
+      actionParts:
+      - type: 23
+        n1: a
+        n2: 1
+        s: 
+      - type: 9
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: a
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 
+      - type: 9
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: inf
+        s: $kinka
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 17
+        n1: 
+        n2: 
+        s: 

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 5-katalog
+  m_EditorClassIdentifier: 
+  card_name: "\u30AB\u30BF\u30ED\u30B0"
+  image: {fileID: 21300000, guid: c51a8c3d0fcc14818ba3c5cc7b5b5979, type: 3}
+  types:
+  - action
+  - sustain
+  description: "\u30A2\u30AF\u30B7\u30E7\u30F3+1\n\u30C7\u30C3\u30AD\u306E\u4E0A3\u679A\u304B\u30891\u679A\u3092\u624B\u672D\u306B\u52A0\u3048\u3001\u6B8B\u308A\u3092\u8107\u306B\u7F6E\u304F\n\u6B21\u306E2\u3064\u306E\u30BF\u30FC\u30F3\u958B\u59CB\u6642\u3001\u8107\u306B\u7F6E\u3044\u305F\u30AB\u30FC\u30C9\u306E\u4E2D\u304B\u30891\u679A\u3092\u624B\u672D\u306B\u52A0\u3048\u308B"
+  cost: 5
+  action:
+    subaction:
+    - trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 10
+        n1: 
+        n2: 
+        s: 
+      - type: 34
+        n1: 
+        n2: 
+        s: 
+      - type: 1
+        n1: 1
+        n2: 
+        s: 
+      - type: 5
+        n1: 3
+        n2: 
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 14
+        n1: 
+        n2: 
+        s: 
+      - type: 27
+        n1: 
+        n2: 
+        s: 
+      - type: 48
+        n1: 
+        n2: 
+        s: 
+    - trigger: 3
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 47
+        n1: 
+        n2: 
+        s: 
+      - type: 13
+        n1: 1
+        n2: 1
+        s: 
+      - type: 14
+        n1: 
+        n2: 
+        s: 
+      - type: 27
+        n1: 
+        n2: 
+        s: 
+      - type: 20
+        n1: 
+        n2: 
+        s: 
+    - trigger: 3
+      target: 0
+      cond: 1
+      force: 0
+      actionParts:
+      - type: 10
+        n1: 
+        n2: 
+        s: 
+      - type: 16
+        n1: 
+        n2: 
+        s: 

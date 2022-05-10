@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f767371189246988a787fd6f007e9b, type: 3}
+  m_Name: 5-jokin
+  m_EditorClassIdentifier: 
+  card_name: "\u9664\u83CC"
+  image: {fileID: 21300000, guid: d25991d954c6b40baadbefcf02b92433, type: 3}
+  types:
+  - action
+  description: "\u30C9\u30ED\u30FC+3\n\u30C7\u30C3\u30AD\u306E\u4E0A4\u679A\u3092\u898B\u3066\u3001\u305D\u306E\u4E2D\u306B\u3042\u308B\u5F97\u70B9\u30AB\u30FC\u30C9\u3068\u546A\u3044\u30AB\u30FC\u30C9\u3092\u5168\u3066\u624B\u672D\u306B\u52A0\u3048\u308B"
+  cost: 5
+  action:
+    subaction:
+    - trigger: 0
+      target: 0
+      cond: 0
+      force: 0
+      actionParts:
+      - type: 3
+        n1: 3
+        n2: 
+        s: 
+      - type: 5
+        n1: 4
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: inf
+        s: score
+      - type: 14
+        n1: 
+        n2: 
+        s: 
+      - type: 27
+        n1: 
+        n2: 
+        s: 
+      - type: 11
+        n1: 0
+        n2: inf
+        s: penalty
+      - type: 14
+        n1: 
+        n2: 
+        s: 
